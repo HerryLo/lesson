@@ -1,4 +1,4 @@
 # 前端
 
 ## 前端基础
-[前端基础知识](./baseLseeon/lesson1.md)
+- [前端基础知识](./baseLesson/lesson1.md)
