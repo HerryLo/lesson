@@ -8,7 +8,7 @@
 
 ### 课程目录
 
-![img](../img/1530758094483.jpg)
+![img](./img/1530758094483.jpg)
 
 - [前端基础知识](./baseLesson/lesson1.md)
 - html
