@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>css样式</title>
+    <style>
+        /* 嵌入 */
+        /* flex 盒模型  常用布局*/
+        #div{
+            background: red;
+            width: 800px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 300px;
+        }
+    </style>
+    <link rel="stylesheet" href="./lesson44.css">
+</head>
+<body>
+    <!-- 优先级 内联 -> 嵌入 -> 外部 -->
+    <!-- id -> class -->
+
+    <!-- css三种 编写css的方法 -->
+    <!-- id 唯一 class 允许多个使用 -->
+    <!-- 内联 -->
+    <div id="div" class="div_wrap" style="width: 100%;">
+        <div class="div_wrap">132123</div>
+        <div class="div_wrap">123123</div>
+        <div class="div_wrap">123123</div>
+    </div>
+</body>
+</html>
