@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>js</title>
+</head>
+<body>
+    <div>js变量</div>
+</body>
+<script src="lesson55.js"></script>
+<script>
+    var und;
+    // undefind
+    console.log(und);
+
+    // number
+    var num = 123;
+    console.log(typeof num);
+    console.log(num);
+    
+    // string
+    var str = '123'
+    console.log(typeof str);
+    console.log(str);
+    
+    // Boolean
+    var bool = true;
+    console.log(typeof bool);
+    console.log(bool);
+
+    // object  
+    var obj = {
+        a: "123123",
+        b: 123
+    }
+    console.log(obj instanceof Object);
+    console.log(obj.a, obj.b);
+
+    // 数组
+    var arr = [12, '23'];
+    console.log(arr instanceof Array);
+    console.log(arr[0], arr[1], arr, arr.length);
+
+    // function 函数
+    function main() {
+        var a = 12
+        console.log('函数打印' + a);
+    }
+
+    main();
+
+    //ES5 字符串拼接
+    // var esStr = 'liuheng';
+    // var totalStr = 'lh' + esStr
+    // console.log(totalStr);
+
+    //ES6 字符串拼接
+    var esStr = 'liuheng';
+    var totalStr = `lh${esStr}`
+    console.log(totalStr);
+</script>
+</html>
