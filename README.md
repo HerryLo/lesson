@@ -22,3 +22,5 @@ Mark
         - [示例2](./baseLesson/lesson4/lesson44.html)
     - [js变量](./baseLesson/lesson5/lesson5.md)
         - [示例1](./baseLesson/lesson5/lesson55.html)
+    - [DOM节点操作](./baseLesson/lesson6/lesson6.md)
+        - [示例1](./baseLesson/lesson6/lesson66.html)
